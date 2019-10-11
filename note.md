@@ -9,3 +9,21 @@ var pikachu = document.getElementById("pikachu");
 // change the element's class to "caught"
 pikachu.className = "caught";
 ```
+
+## breakfast prompt
+```js
+var food = prompt("What did you eat for breakfast this morning?");
+console.log("You ate", food, "for breakfast");
+
+// or 
+
+console.log(`You ate ${food} for breakfast`);
+```
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+
+## User Ouput 
+### innerHTML
+var newKnowledge = document.getElementById("new-knowledge");
+newKnowledge.innerHTML = "how to select and manipulate DOM elements!"
+
+## Practice together
