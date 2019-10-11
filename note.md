@@ -27,3 +27,16 @@ var newKnowledge = document.getElementById("new-knowledge");
 newKnowledge.innerHTML = "how to select and manipulate DOM elements!"
 
 ## Practice together
+```html
+<h5 class="user-output">My favorite pokémon is: 
+  <span id="favorite-pokemon">...</span>
+</h5>
+```
+```js
+// use a prompt to get the user's favorite pokemon and save it to a variable
+var userFavoritePokemon = prompt("What is your favorite pokemon?"); // ask user a question
+// select the element with the id "favorite-pokemon" and save it to a variable
+var elementFavoritePokemon = document.getElementById("favorite-pokemon");
+// set the inner html of the element to the user's favorite pokemon
+elementFavoritePokemon.innerHTML = userFavoritePokemon;
+```
