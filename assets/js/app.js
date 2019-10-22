@@ -23,5 +23,8 @@ app.setName = function setName() {
 
 app.setWebsite = function setWebsite() {
   // code BELOW this line for challenge #3 & bonus -->
+  var yourFavWebSite = prompt("What is your favorite website?");
+  var yourWebsiteArea = document.getElementById("favorite-website");
+  yourWebsiteArea.innerHTML = yourFavWebSite;
 
 } // <-- code ABOVE this line for challenge #3 & bonus
