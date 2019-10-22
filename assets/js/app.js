@@ -12,6 +12,12 @@ app.shakePokeball = function shakePokeball() {
 
 app.setName = function setName() {
   // code BELOW this line for challenge #2 -->
+  // prompt the user by asking what is your name? and save it
+  var userPromptName = prompt("What is your name?");
+  // grab the area where name will go
+  var yourNameArea = document.getElementById("first-name");
+  // write on name area with the earlier user prompt
+  yourNameArea.innerHTML = userPromptName;
 
 } // <-- code ABOVE this line for challenge #2
 
