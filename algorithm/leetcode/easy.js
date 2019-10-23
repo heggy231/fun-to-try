@@ -5,10 +5,13 @@
 
   Because nums[0] + nums[1] = 2 + 7 = 9,
   return [0, 1].
+  https://github.com/crimx/leetcope
   https://leetcode.com/problems/two-sum/solution/
   https://github.com/chihungyu1116/leetcode-javascript
+  https://www.youtube.com/watch?v=I58Kw-9tHgY
  * 
  */
+
 
 var nums = [2, 7, 11, 15];
 var target = 9;
